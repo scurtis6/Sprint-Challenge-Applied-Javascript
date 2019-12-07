@@ -30,32 +30,43 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The Document Object Model is an interface to web pages. It is essentially an API to the page, allowing programs to read and manipulate the page content, structure, and styles (HTML, CSS, JavaScript)
+
 2. What is an event?
+
+An event is what happens when an action occurs (click, mouseclick, hover, keydown, load, etc.) on a web page. 
+When triggered, which can be used to invoke other functions.
 
 3. What is an event listener?
 
+An event listener is a function when an event occurs. 
+
 4. Why would we convert a NodeList into an Array?
+
+NodeList don't have some array-like properties (forEach, map, slice, etc) and method can't be used on them.
 
 5. What is a component?
 
+Component is a small, reusable code this is a piece of a larger whole
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
